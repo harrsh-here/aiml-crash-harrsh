@@ -1,45 +1,29 @@
-﻿# AIML Crash Course - Self-Practice Deliverables
+# AIML Industrial Training Portfolio
+
+Welcome to the central repository for my 45-Days AIML Industrial Training. This workspace serves as an organized portfolio tracking all assignments developed throughout the training program.
 
 ---
 
-## 📅 Day 1 & Day 2 Foundations
-*Initial foundational setups, script paths, basic calculators, and condition evaluations.*
+## 📁 Project Structure
+
+To maintain a clean and scalable workspace, this repository is organized into independent, task-specific directories. Each folder represents a distinct milestone in the training timeline.
+
+### How to Navigate this Repo:
+* **Task Directories:** Navigate directly into any of the daily task folders above to view the code deliverables for that specific session.
+* **Localized Documentation:** Every individual folder contains its own internal `README.md` file detailing exactly what those specific scripts do and how to execute them.
 
 ---
 
-## 📅 Day 3 Advanced Scripting
-*Exploration of modular system libraries, underlying exception handling blocks, and standard data collection paradigms.*
+## 🛠️ Global Environment Setup
 
----
-
-## 📅 Day 4 Core OOP & File Processing Engineering
-
-### 📁 Workspace Directory: `Day_3_Tasks/`
-
-| File Name | Description | Command to Run |
-| :--- | :--- | :--- |
-| `student_report.py` | Models individual student profiles using unique instance lists and a shared class-wide school tracking variable. | `python Day_3_Tasks/student_report.py` |
-| `comprehension_drills.py` | Evaluates inline conditional filtration elements, unit scalar transformations, multi-dimensional array flat maps, alongside set and dictionary comprehensions. | `python Day_3_Tasks/comprehension_drills.py` |
-| `file_records.py` | Connects system streams with native CSV processing, evaluating records using structured programmatic dictionary objects. | `python Day_3_Tasks/file_records.py` |
-| `typed_calculator.py` | Extends math operator functions with descriptive inline docstrings and static type structures using optional return wrappers. | `python Day_3_Tasks/typed_calculator.py` |
-| `library_system.py` | Demonstrates hierarchical inheritance patterns and dynamic polymorphism using systematic instance validation checks. | `python Day_3_Tasks/library_system.py` |
-| `config_manager.py` | Creates state storage endpoints via active serializations and structural read-write mutations on JSON disk streams. | `python Day_3_Tasks/config_manager.py` |
-| `pandas_explore.py` | Uses matrix structures and data science operations to execute grouped aggregations and relational slice sorting. | `python Day_3_Tasks/pandas_explore.py` |
-| `fraction_class.py` | Handles fractional calculations by mapping operator behaviors directly to mathematical dunder procedures. | `python Day_3_Tasks/fraction_class.py` |
-| `inventory.py` | Tracks database entity operations using persistent class factory utilities linked to tabular tracking files. | `python Day_3_Tasks/inventory.py` |
-
-
----
-
-## 🛠️ Environment Configuration & Deployment
-To execute any of the modules or verify runtime processes locally, initialize your console wrapper inside the project root:
+To run any script or notebook from this portfolio locally, clone the repository and initialize the shared environment from this root directory:
 
 ```bash
-# Activate your local virtual environment
+# 1. Activate your local virtual environment
 .venv\Scripts\activate
 
-# Install third-party frame extensions
-pip install pandas
+# 2. Update core training packages
+pip install pandas numpy jupyterlab
 
-# Run a sample day task 
-python Day_3_Tasks/student_report.py
+# 3. Launch Jupyter to view workspace notebooks
+jupyter lab
