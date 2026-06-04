@@ -1,0 +1,9 @@
+product_id,product_name,category,price
+P001,Laptop,Electronics,45000
+P002,Office Chair,Furniture,8500
+P003,Notebook Pack,Office Supplies,250
+P004,Smartphone,Electronics,$18000
+P005,Desk,Furniture,
+P006,Pen Set,Office Supplies,150
+P007,Tablet,Electronics,22000
+P008,Bookshelf,Furniture,12000

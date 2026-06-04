@@ -1,0 +1,11 @@
+customer_id,name,segment,region
+C001,Amit Sharma,Consumer,North
+C002,Priya Verma,corporate,South
+C003,Rahul Jain,Consumer,East
+C004,Sneha Patel,home office,West
+C005,Vikram Singh,consumer,North 
+C006,Ananya Gupta,Corporate, South
+C007,Deepak Kumar,CONSUMER,East 
+C008,Meera Reddy,Home Office,west
+C009,Arjun Nair,consumer,North
+C010,Kavya Iyer,Corporate,South
