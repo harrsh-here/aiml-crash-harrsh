@@ -1,0 +1,74 @@
+==================================================
+DATA QUALITY & INTEGRITY REPORT
+==================================================
+Total records in raw merged: 119143
+Total records after removing duplicates: 119143
+Duplicates removed: 0
+
+Missing values per column:
+                               Missing Count  Percentage
+order_id                                   0    0.000000
+customer_id                                0    0.000000
+order_status                               0    0.000000
+order_purchase_timestamp                   0    0.000000
+order_approved_at                        177    0.148561
+order_delivered_carrier_date            2086    1.750837
+order_delivered_customer_date           3421    2.871339
+order_estimated_delivery_date              0    0.000000
+order_item_id                            833    0.699160
+product_id                               833    0.699160
+seller_id                                833    0.699160
+shipping_limit_date                      833    0.699160
+price                                    833    0.699160
+freight_value                            833    0.699160
+product_category_name                   2542    2.133571
+product_name_lenght                     2542    2.133571
+product_description_lenght              2542    2.133571
+product_photos_qty                      2542    2.133571
+product_weight_g                         853    0.715946
+product_length_cm                        853    0.715946
+product_height_cm                        853    0.715946
+product_width_cm                         853    0.715946
+product_category_name_english           2567    2.154554
+customer_unique_id                         0    0.000000
+customer_zip_code_prefix                   0    0.000000
+customer_city                              0    0.000000
+customer_state                             0    0.000000
+payment_sequential                         3    0.002518
+payment_type                               3    0.002518
+payment_installments                       3    0.002518
+payment_value                              3    0.002518
+review_id                                997    0.836810
+review_score                             997    0.836810
+review_comment_title                  105154   88.258647
+review_comment_message                 68898   57.827988
+review_creation_date                     997    0.836810
+review_answer_timestamp                  997    0.836810
+seller_zip_code_prefix                   833    0.699160
+seller_city                              833    0.699160
+seller_state                             833    0.699160
+geolocation_zip_code_prefix              322    0.270263
+geolocation_lat                          322    0.270263
+geolocation_lng                          322    0.270263
+geolocation_city                         322    0.270263
+geolocation_state                        322    0.270263
+
+Suspicious pricing values found:
+- Price < 0: 0
+- Freight < 0: 0
+- Payment value < 0: 0
+
+Suspicious date sequences:
+- Delivery date earlier than purchase date: 0
+
+Merge Reliability Check Table:
+              Join step  Rows Before  Rows After  Unmatched Left Keys
+Merged with order_items        99441      113425                  775
+   Merged with products       113425      113425                    0
+Merged with translation       113425      113425                    2
+  Merged with customers       113425      113425                    0
+   Merged with payments       113425      118434                    1
+    Merged with reviews       118434      119143                  768
+    Merged with sellers       119143      119143                    0
+Merged with geolocation       119143      119143                  157
+==================================================

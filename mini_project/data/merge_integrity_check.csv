@@ -1,0 +1,9 @@
+Join step,Rows Before,Rows After,Unmatched Left Keys
+Merged with order_items,99441,113425,775
+Merged with products,113425,113425,0
+Merged with translation,113425,113425,2
+Merged with customers,113425,113425,0
+Merged with payments,113425,118434,1
+Merged with reviews,118434,119143,768
+Merged with sellers,119143,119143,0
+Merged with geolocation,119143,119143,157
