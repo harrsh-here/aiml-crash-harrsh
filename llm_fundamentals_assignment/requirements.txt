@@ -1,0 +1,7 @@
+groq
+google-generativeai
+pandas
+python-dotenv
+tiktoken
+jupyter
+datasets

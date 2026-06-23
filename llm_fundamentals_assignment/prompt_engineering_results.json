@@ -1,0 +1,22 @@
+{
+    "Prompt 1 (Basic)": {
+        "prompt": "Summarize this article: ",
+        "output": "The article reveals that China had a significant role in the split-up of the Russian oil company Yukos. \n\nHere are the key points:\n\n1. Russia's state-owned bank VEB lent $6 billion to Rosneft to help buy the key unit Yuganskneftegas from Yukos. \n2. VEB stated that the $6 billion loan came from Chinese banks.\n3. In return, Rosneft signed a long-term oil supply deal with China's state-owned oil company CNPC, receiving $6 billion in credits from them.\n4. The credits from CNPC were used to pay off the loans Rosneft received to finance the purchase of Yugansk.\n5. CNPC initially offered 20% of Yugansk in exchange for financing but opted for a long-term oil supply deal instead, likely to avoid possible litigation from Yukos.\n6. This deal suggests a significant Chinese involvement in the Russian energy sector, particularly in relation to the renationalization of key assets from the disbanded oil group Yukos."
+    },
+    "Prompt 2 (Bullets)": {
+        "prompt": "Extract the 3 most important key points from this article in a bulleted list: ",
+        "output": "However, there is no article provided, if you provide the article, I would be able to extract the three most important key points from it in a bulleted list. \n\nIf you are referring to the passage you gave, here are the three most important key points in a bulleted list:\n\n* The Russian government received a $6 billion loan from Chinese banks to help renationalize the Yuganskneftegas unit of oil group Yukos.\n* The loan was provided by Chinese banks to VEB, a Russian state bank, which then lent the funds to Rosneft to buy Yugansk.\n* Rosneft has signed a long-term oil supply deal with China's CNPC, receiving $6 billion in credits, which will be used to pay off the loans obtained to finance the purchase of Yugansk."
+    },
+    "Prompt 3 (ELI5)": {
+        "prompt": "Explain this article as if I am 5 years old: ",
+        "output": "Imagine you have a big toy store, and a man named Mr. Yukos owns most of it. But the government, it's like the boss of the whole country, wanted to take some of Mr. Yukos' toys. They wanted to make the store work for the government instead.\n\nThe government didn't have enough money to buy all the toys, so they asked their friend, Mr. China, if he could lend them some money. Mr. China said yes, and he lent the government $6 billion, which is a really, really big amount of money.\n\nThen, the government used that money to buy most of the toy store. They gave the money to their friend Mr. Rosneft, who is like a big company that helps the government with the toys. Mr. Rosneft said thank you for the money, and he would give Mr. China some toys, not money, in return.\n\nBut instead of giving Mr. China some toys, Mr. China said, 'Oh, I don't want toys. I want oil!' So, Mr. Rosneft said, 'Okay, I'll give you oil instead.' That's like saying, 'If I give you a toy car, you'll give me a toy box.' But in this case, the toy box is full of oil, and Mr. China's company, CNPC, will get that oil for a long, long time.\n\nIt's kind of like a trade, where one person gives something to another person, and the other person gives something back. In this case, the government got money from Mr. China, Mr. Rosneft got money, and Mr. China got oil. And everyone's happy!"
+    },
+    "Prompt 4 (Entities)": {
+        "prompt": "List all the people, companies, and locations mentioned in this article: ",
+        "output": "Here's the list of people, companies, and locations mentioned in the article:\n\n1. People:\n   - None mentioned by name\n\n2. Companies:\n   - China's CNPC (China National Petroleum Corporation)\n   - Russian state bank VEB\n   - Rosneft\n   - Yukos\n   - Yuganskneftegas (subsidiary of Yukos)\n   - Vedomosti (Russian newspaper)\n\n3. Locations:\n   - China\n   - Russia\n   - Kremlin (referencing the presidential administration building in Moscow, Russia)"
+    },
+    "Prompt 5 (Tweet)": {
+        "prompt": "Summarize this article into a single engaging tweet with hashtags: ",
+        "output": "\"BREAKING: China's role in Russia's $3.2bn oil grab exposed as Chinese banks lent $6bn to help Russia renationalise Yukos unit Yuganskneftegas #ChinaRussiaTies #EnergyDeal #YukosScandal\""
+    }
+}
